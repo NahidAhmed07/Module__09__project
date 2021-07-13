@@ -14,24 +14,22 @@
 </head>
 
 <body>
-  <header>
     <nav class="navbar">
       <h4 class="logo"><i class="fas fa-blog"></i> Logo</h4>
       <div class="nav__item">
         <a href="#">Home</a>
-        <a href="#">Player</a>
-        <a href="#">Blog</a>
-        <a href="#">Curse</a>
+        <a href="#player">Player</a>
+        <a href="#blog">Blog</a>
+        <a href="#courses">Curse</a>
       </div>
     </nav>
-  </header>
-
   <!------------------------------------------
             top player and blog section 
 ----------------------------------------------->
-  <section id="top__plater__blog">
+<main>
+  <section id="top__player__blog">
     <div class="container">
-      <div class="top__player">
+      <div class="top__player" id="player">
         <h2 class="section__header">Top Player</h2>
         <div class="top__player__players">
           <!-- player 1 -->
@@ -68,7 +66,7 @@
 
       </div>
       <hr>
-      <div class="top__blog">
+      <div class="top__blog" id="blog">
         <h2 class="section__header">Top Blog</h2>
         <div class="blogs">
           <article class="blogs__bolg">
@@ -81,6 +79,7 @@
               <p class="blog__info--author"> By <a href="">Danny Sapio</a></p>
             </div>
           </article>
+          
 
           <!-- blog 2 -->
 
@@ -205,7 +204,107 @@
 
     </div>
   </section>
+  <!-- contact   -->
+  <section id="contact" class="container">
+    <h2 class="section__header">Contact us</h2>
+    <div class="contact__wapper">
+      <form action="" class="contact__form"> 
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="email" name="email" id="email" placeholder="Email">
+        <input type="password" name="password" id="password" placeholder="Password">
+        <textarea name="massage" id="	massage" cols="30" rows="10">Massage</textarea>
+        <button type="submit">Submit</button>
+        
+      </form>
+      <div class="contact__addr">
+       <p> <span><i class="fas fa-street-view"></i></span>Pabna, Bangladesh</p>
+        <p><span><i class="fas fa-at"></i></span> mdnahidahmed@gmail.com</p>
+        <p><span><i class="fas fa-phone-volume"></i></span> +880 1758 597460</p>
 
+      </div>
+    </div>
+
+  </section>
+  <!-- find us  -->
+  <section id="find__us">
+  <div class="container">
+    <div class="find__header__wapper">
+      <div class="find_header">
+        <div class="find__header__icon">
+          <i class="fas fa-home"></i>
+        </div>
+        <div class="find__header__text">
+          <h4>Find us</h4>
+          <p>Dhaka, Bangladesh</p>
+        </div>
+      </div>
+      <div class="find_header">
+        <div class="find__header__icon">
+          <i class="fas fa-street-view"></i>
+        </div>
+        <div class="find__header__text">
+          <h4>Find us</h4>
+          <p>Dhaka, Bangladesh</p>
+        </div>
+      </div>
+      <div class="find_header">
+        <div class="find__header__icon">
+          <i class="fas fa-at"></i>
+        </div>
+          <div class="find__header__text">
+            <h4>Find us</h4>
+            <p>Dhaka, Bangladesh</p>
+          </div>
+      </div>
+     
+    
+    </div>
+
+    <hr>
+    <div class="find__main">
+      <div class="find__follow">
+        <div class="follow">
+          <h2 class="find__main--header">Follow us</h2>
+          <div class="follow__icons">
+            <img src="./images/icons/linkdin.png" alt="">
+            <img src="./images/icons/instagram.png" alt="">
+            <img src="./images/icons/linkdin.png" alt="">
+          </div>
+        </div>
+        <p class="find__follow--text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum perferendis quis illo quasi assumenda fugit corporis repudiandae.</p>
+       
+      </div>
+      <div class="find__link">
+        <h2 class="find__main--header" >Useful Links</h2>
+        <div class="find__link--items">
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Contact</li>
+            <li>Our Servises</li>
+            <li>Contact us</li>
+          </ul>
+          <ul>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li>About Us</li>
+            <li>Expert Team</li>
+            <li>Latest News</li>
+          </ul>
+        </div>
+      </div>
+      <div class="find__subscribee">
+        <h2 class="find__main--header" >Subscribe</h2>
+        <P>consectetur adipisicing elit. Nobis ex, dolorum minus quo nisi corporis. Lorem ipsum, dolor sit amet consectetur adipisicing</P>
+        <input type="text" placeholder="Email"><button><i class="fas fa-paper-plane"></i></button>
+
+      </div>
+    </div>
+
+  </div>
+  </section>
+  
+</main>
 </body>
 
 </html>
